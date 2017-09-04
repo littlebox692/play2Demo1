@@ -7,6 +7,7 @@ object Application extends Controller {
 
   def index = Action {
     println("test master merge!")
+    println("merge branch into master")
     Ok(views.html.index("Your new application is ready."))
   }
 
