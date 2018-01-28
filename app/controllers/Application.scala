@@ -7,7 +7,7 @@ object Application extends Controller {
 
   def index = Action {
     println("just for test branch")
-    Ok
+    Ok(views.html.index("Your new application is ready."))
   }
 
 }
